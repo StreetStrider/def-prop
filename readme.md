@@ -16,3 +16,6 @@ def(object, 'prop', getset(() => 'getter', v => { 'setter' }))
 def(object, 'prop', getset(() => 'getter', ':enum'))
 def(object, 'prop', getset(() => 'getter', v => { 'setter' }, ':enum'))
 ```
+
+# license
+MIT.

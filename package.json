@@ -5,6 +5,7 @@
 	"description": "def(prop())",
 
 	"repository": "StreetStrider/def-prop",
+	"license": "MIT",
 
 	"scripts":
 	{
