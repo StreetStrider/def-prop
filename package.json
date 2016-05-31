@@ -15,6 +15,11 @@
 
 	"main": "def.js",
 
+	"engines":
+	{
+		"node": ">=4"
+	},
+
 	"devDependencies":
 	{
 		"mocha":
