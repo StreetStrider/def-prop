@@ -6,7 +6,8 @@
 
 	"scripts":
 	{
-		"test": "mocha test/case/"
+		"test":                  "mocha test/case/",
+		"cover": "istanbul cover _mocha test/case/"
 	},
 
 	"main": "def.js",
@@ -17,6 +18,9 @@
 			"2",
 
 		"chai":
-			"3"
+			"3",
+
+		"istanbul":
+			"0.4"
 	}
 }
