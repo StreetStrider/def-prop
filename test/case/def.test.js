@@ -69,4 +69,14 @@ describe('def', () =>
 			expect(obj.key).equal(2)
 		})
 	})
+
+	describe('val', () =>
+	{
+		it('exists', () =>
+		{
+			expect(def.val).a('function')
+			expect(def.val.name).equal('val')
+			expect(def.val.length).equal(1)
+		})
+	})
 })

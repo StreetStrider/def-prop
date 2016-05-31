@@ -1,7 +1,9 @@
 
 var defd = Object.defineProperty
 
-module.exports = function def (object, key, descriptor)
+var def = module.exports = function def (object, key, descriptor)
 {
 	return defd(object, key, descriptor)
 }
+
+def.val = require('./val')
