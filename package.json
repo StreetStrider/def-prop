@@ -6,8 +6,8 @@
 
 	"scripts":
 	{
-		"test":                  "mocha test/case/",
-		"cover": "istanbul cover _mocha test/case/"
+		"test":                  "mocha    --recursive test/case/",
+		"cover": "istanbul cover _mocha -- --recursive test/case/"
 	},
 
 	"main": "def.js",
