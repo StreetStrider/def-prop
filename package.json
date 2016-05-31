@@ -10,7 +10,8 @@
 	"scripts":
 	{
 		"test":                  "mocha    --recursive test/case/",
-		"cover": "istanbul cover _mocha -- --recursive test/case/"
+		"cover": "istanbul cover _mocha -- --recursive test/case/",
+		"coveralls": "istanbul-coveralls"
 	},
 
 	"main": "def.js",
@@ -29,6 +30,9 @@
 			"3",
 
 		"istanbul":
-			"0.4"
+			"0.4",
+
+		"istanbul-coveralls":
+			"1"
 	}
 }
