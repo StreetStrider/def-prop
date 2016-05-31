@@ -2,6 +2,8 @@
 	"name":    "def-prop",
 	"version": "1.0.0-pre",
 
+	"description": "def(prop())",
+
 	"repository": "StreetStrider/def-prop",
 
 	"scripts":
