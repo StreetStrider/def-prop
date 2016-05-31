@@ -79,4 +79,14 @@ describe('def', () =>
 			expect(def.val.length).equal(1)
 		})
 	})
+
+	describe('getset', () =>
+	{
+		it('exists', () =>
+		{
+			expect(def.getset).a('function')
+			expect(def.getset.name).equal('getset')
+			expect(def.getset.length).equal(2)
+		})
+	})
 })

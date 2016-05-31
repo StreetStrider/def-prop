@@ -7,3 +7,4 @@ var def = module.exports = function def (object, key, descriptor)
 }
 
 def.val = require('./val')
+def.getset = require('./getset')
