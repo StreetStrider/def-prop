@@ -21,6 +21,12 @@
 		"node": ">=4"
 	},
 
+	"files":
+	[
+		"*.js",
+		"*.ts"
+	],
+
 	"devDependencies":
 	{
 		"mocha":
