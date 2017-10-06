@@ -1,5 +1,5 @@
 
-var extract = require('./lib/extract')
+var extract = require('./extract')
 
 module.exports = function val (value)
 {

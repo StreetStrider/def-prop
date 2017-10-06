@@ -3,7 +3,7 @@ var expect = require('chai').expect
 
 describe('extract', () =>
 {
-	var extract = require('../../../lib/extract')
+	var extract = require('../../extract')
 
 	it('works', () =>
 	{
