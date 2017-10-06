@@ -7,7 +7,7 @@ declare module 'def-prop'
 
 	interface DefProp
 	{
-		(object: Object, key: string, descriptor: PropertyDescriptor): Object,
+		<T extends Object>(object: T, key: string, descriptor: PropertyDescriptor): T,
 
 		val (value: any, ...mods: Modifier[]): PropertyDescriptor,
 
