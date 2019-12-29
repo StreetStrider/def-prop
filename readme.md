@@ -4,10 +4,6 @@
 npm i def-prop
 ```
 
-```ts
-/// <reference path='node_modules/def-prop/def.d.ts' />`
-```
-
 ```js
 var def = require('def-prop')
 var val = def.val
