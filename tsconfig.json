@@ -1,0 +1,14 @@
+{
+	"files": [ "index.d.ts" ],
+
+	"compilerOptions":
+	{
+		"noEmit": true,
+		"pretty": true,
+
+		"strict": true,
+
+		"target": "ES5",
+		"moduleResolution": "Node"
+	}
+}

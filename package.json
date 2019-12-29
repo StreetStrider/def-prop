@@ -15,6 +15,8 @@
 
 		 "unit": "mocha --recursive test/case/",
 
+		    "t": "tsc",
+
 		"cover": "nyc --reporter=lcov --reporter=text npm run unit",
 		"coveralls": "istanbul-coveralls"
 	},
@@ -42,6 +44,9 @@
 
 		"eslint-plugin-node":
 			"11",
+
+		"typescript":
+			"^3.7",
 
 		"mocha":
 			"2",
