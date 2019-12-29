@@ -9,8 +9,8 @@
 
 	"scripts":
 	{
-		"test":                  "mocha    --recursive test/case/",
-		"cover": "istanbul cover _mocha -- --recursive test/case/",
+		 "test": "mocha --recursive test/case/",
+		"cover": "nyc --reporter=lcov --reporter=text npm run test",
 		"coveralls": "istanbul-coveralls"
 	},
 
@@ -35,8 +35,8 @@
 		"chai":
 			"3",
 
-		"istanbul":
-			"0.4",
+		"nyc":
+			"15",
 
 		"istanbul-coveralls":
 			"1"
