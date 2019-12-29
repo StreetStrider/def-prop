@@ -1,3 +1,5 @@
+/* eslint-disable default-case */
+/* eslint complexity: [ 2, 7 ] */
 
 module.exports = function (seq, start)
 {

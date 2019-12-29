@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 
 var expect = require('chai').expect
 
