@@ -9,9 +9,13 @@
 
 	"scripts":
 	{
+		 "test": "npm run st && npm run unit",
+
 		   "st": "eslint .",
-		 "test": "mocha --recursive test/case/",
-		"cover": "nyc --reporter=lcov --reporter=text npm run test",
+
+		 "unit": "mocha --recursive test/case/",
+
+		"cover": "nyc --reporter=lcov --reporter=text npm run unit",
 		"coveralls": "istanbul-coveralls"
 	},
 
