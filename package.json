@@ -15,7 +15,7 @@
 
 		 "unit": "mocha --recursive test/case/",
 
-		    "t": "tsc",
+		    "t": "dtslint --expectOnly --localTs ./node_modules/typescript/lib",
 
 		"cover": "nyc --reporter=lcov --reporter=text npm run unit",
 		"coveralls": "istanbul-coveralls"
@@ -31,7 +31,7 @@
 	"files":
 	[
 		"*.js",
-		"*.ts"
+		"*.d.ts"
 	],
 
 	"devDependencies":
@@ -45,8 +45,13 @@
 		"eslint-plugin-node":
 			"11",
 
+
 		"typescript":
 			"^3.7",
+
+		"dtslint":
+			"2",
+
 
 		"mocha":
 			"2",

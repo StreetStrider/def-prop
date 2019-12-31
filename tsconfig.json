@@ -1,5 +1,12 @@
 {
-	"files": [ "index.d.ts" ],
+	"files":
+	[
+		"def.d.ts",
+		"getset.d.ts",
+		"val.d.ts",
+
+		"test/types.ts"
+	],
 
 	"compilerOptions":
 	{
@@ -8,6 +15,7 @@
 
 		"strict": true,
 
+		"lib": [ "ES6" ],
 		"target": "ES5",
 		"moduleResolution": "Node"
 	}
