@@ -21,6 +21,9 @@ def(x, 'x')
 // $ExpectError
 def(x)
 
+// $ExpectError
+def(x, 'x', val(1), {})
+
 def(x, 'foo', val(15, ':enum'))
 def(x, 'foo', val(15, ':enum', ':write'))
 // $ExpectError
@@ -30,6 +33,11 @@ def(x, 'bar', getset(() => 16, ':enum'))
 def(x, 'bar', getset(() => 16, ':enum', ':write'))
 // $ExpectError
 def(x, 'bar', getset(() => 16, ':enum', ':write', ':foo'))
+
+def(x, 'bar', getset(() => 16, (x: any) => void x, ':enum'))
+def(x, 'bar', getset(() => 16, (x: any) => void x, ':enum', ':write'))
+// $ExpectError
+def(x, 'bar', getset(() => 16, (x: any) => void x, ':enum', ':write', ':foo'))
 
 // $ExpectError
 def(x, 'bar', getset(1))
