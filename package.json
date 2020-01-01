@@ -31,7 +31,9 @@
 	"files":
 	[
 		"*.js",
-		"*.d.ts"
+		"*.d.ts",
+
+		"!.eslintrc.js"
 	],
 
 	"devDependencies":
