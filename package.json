@@ -9,7 +9,7 @@
 
 	"scripts":
 	{
-		 "test": "npm run st && npm run unit",
+		 "test": "npm run st && npm run unit && npm run t",
 
 		   "st": "eslint .",
 
