@@ -70,23 +70,29 @@ describe('def', () =>
 		})
 	})
 
+
+	var val = require('../../val')
+
 	describe('val', () =>
 	{
 		it('exists', () =>
 		{
-			expect(def.val).a('function')
-			expect(def.val.name).equal('val')
-			expect(def.val.length).equal(1)
+			expect(val).a('function')
+			expect(val.name).equal('val')
+			expect(val.length).equal(1)
 		})
 	})
+
+
+	var getset = require('../../getset')
 
 	describe('getset', () =>
 	{
 		it('exists', () =>
 		{
-			expect(def.getset).a('function')
-			expect(def.getset.name).equal('getset')
-			expect(def.getset.length).equal(2)
+			expect(getset).a('function')
+			expect(getset.name).equal('getset')
+			expect(getset.length).equal(2)
 		})
 	})
 })

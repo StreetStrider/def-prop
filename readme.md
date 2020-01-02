@@ -6,8 +6,8 @@ npm i def-prop
 
 ```js
 var def = require('def-prop')
-var val = def.val
-var getset = def.getset
+var val = require('def-prop/val')
+var getset = require('def-prop/getset')
 
 var object = {}
 
