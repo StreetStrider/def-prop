@@ -1,4 +1,4 @@
-# def-prop [![Travis](https://img.shields.io/travis/StreetStrider/def-prop.svg?style=flat-square)](https://travis-ci.org/StreetStrider/def-prop) [![Coveralls](https://img.shields.io/coveralls/StreetStrider/def-prop.svg?style=flat-square)](https://coveralls.io/github/StreetStrider/def-prop) [![MIT licensed](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](license) [![npm: def-prop](http://img.shields.io/badge/npm-def--prop-CB3837.svg?style=flat-square)](https://www.npmjs.org/package/def-prop)
+# def-prop [![Travis](https://img.shields.io/travis/StreetStrider/def-prop.svg?style=flat-square)](https://travis-ci.org/StreetStrider/def-prop) [![Coveralls](https://img.shields.io/coveralls/StreetStrider/def-prop.svg?style=flat-square)](https://coveralls.io/github/StreetStrider/def-prop) [![MIT licensed](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](license) [![typescript](http://img.shields.io/badge/type-script-0074C1.svg?style=flat-square)](//typescriptlang.org) [![npm: def-prop](http://img.shields.io/badge/npm-def--prop-CB3837.svg?style=flat-square)](https://www.npmjs.org/package/def-prop)
 
 ```sh
 npm i def-prop
