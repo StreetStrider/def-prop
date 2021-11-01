@@ -9,13 +9,13 @@
 
 	"scripts":
 	{
-		 "test": "npm run st && npm run unit && npm run t",
+		 "test": "npm run st && npm run unit && npm run ts",
 
 		   "st": "eslint .",
 
 		 "unit": "mocha --recursive test/case/",
 
-		    "t": "dtslint --expectOnly --localTs ./node_modules/typescript/lib",
+		   "ts": "dtslint --expectOnly --localTs ./node_modules/typescript/lib",
 
 		"cover": "nyc --reporter=lcov --reporter=text npm run unit",
 		"coveralls": "istanbul-coveralls"
@@ -49,10 +49,10 @@
 
 
 		"typescript":
-			"^3.7",
+			"4.4.4",
 
 		"dtslint":
-			"2",
+			"^4.2",
 
 
 		"mocha":
