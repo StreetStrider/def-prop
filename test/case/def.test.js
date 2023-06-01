@@ -5,7 +5,7 @@ var expect = require('chai').expect
 
 describe('def', () =>
 {
-	var def = require('../../')
+	var def = require('../../def')
 
 	describe('works as Object.defineProperty', () =>
 	{

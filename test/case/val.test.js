@@ -5,7 +5,7 @@ var expect = require('chai').expect
 
 describe('val', () =>
 {
-	var def = require('../../')
+	var def = require('../../def')
 	var val = require('../../val')
 
 	it('value', () =>

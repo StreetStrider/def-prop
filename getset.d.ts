@@ -1,5 +1,5 @@
 
-import { Modifier } from './'
+import { Modifier } from './def'
 
 export default function getset (getter: Function, ...mods: Modifier[]): PropertyDescriptor
 

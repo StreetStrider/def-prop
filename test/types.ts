@@ -1,5 +1,5 @@
 
-import def from '../'
+import def from '../def'
 import val from '../val'
 import getset from '../getset'
 

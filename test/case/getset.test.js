@@ -5,7 +5,7 @@ var expect = require('chai').expect
 
 describe('getset', () =>
 {
-	var def = require('../../')
+	var def = require('../../def')
 	var getset = require('../../getset')
 
 	it('getset(getter)', () =>
