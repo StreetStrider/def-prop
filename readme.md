@@ -22,4 +22,4 @@ def(object, 'prop', getset(() => 'getter', v => { 'setter' }, ':enum'))
 ```
 
 # license
-MIT. © Strider, 2021.
+MIT. © Strider, 2023.
