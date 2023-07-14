@@ -40,7 +40,8 @@
 		"*.js",
 		"*.d.ts",
 
-		"!.eslintrc.js"
+		"!.eslintrc.js",
+		"!index.d.ts"
 	],
 
 	"devDependencies":
