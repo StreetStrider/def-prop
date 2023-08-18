@@ -1,6 +1,6 @@
 {
 	"name":    "def-prop",
-	"version": "2.0.1",
+	"version": "2.0.2",
 
 	"description": "def(prop())",
 
@@ -57,7 +57,7 @@
 
 
 		"typescript":
-			"5.1.3",
+			"5.1.6",
 
 		"dtslint":
 			"^4.2",
