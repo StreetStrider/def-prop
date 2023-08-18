@@ -1,4 +1,6 @@
 
 import { Modifier } from './def'
 
-export default function val (value: any, ...mods: Modifier[]): PropertyDescriptor
+declare function val (value: any, ...mods: Modifier[]): PropertyDescriptor
+
+export = val
